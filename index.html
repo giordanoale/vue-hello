@@ -20,7 +20,16 @@
     <body>
 
         <div id="root">
-            <h1>{{ message }}</h1>
+            <header>
+                <h1>{{ message }}</h1>
+            </header>
+            <div class="container">
+                <button @click="funzione">Bottone super Bottonissimo</button>
+                <h2 :class="displayClass">Quando impari ad usare VueJs</h2>
+                <img :class="displayClass" :src="image" alt="">
+            </div>
+
+
         </div>
         
         <!-- javascript -->
